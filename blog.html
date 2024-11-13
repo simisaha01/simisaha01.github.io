@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Featured</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Blog Page Styles */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 50px 0;
+        }
+
+        .blog-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .blog-card .image {
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .blog-card .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .blog-card:hover .image img {
+            transform: scale(1.1);
+        }
+
+        .blog-card .content {
+            padding: 20px;
+        }
+
+        .blog-card h4 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        /* Responsive for smaller screens */
+        @media screen and (max-width: 768px) {
+            .blog-card .content {
+                padding: 15px;
+            }
+
+            .blog-card h4 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Featured</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="generic.html">Resume</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="Achievement.html">Achievements</a></li>
+                <li class="active"><a href="blog.html">Featured</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://instagram.com/simiiisahaaa" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://github.com/simisaha01" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="https://www.linkedin.com/in/simisaha/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+            <!-- Blog Section -->
+            <section class="post">
+                <header class="major">
+                    <h1>FEATURED</h1>
+                    <p>Step into a world of ideas, insights, and stories.</p>
+                </header>
+
+                <!-- Blog Grid Layout -->
+                <div class="blog-grid">
+
+                    <!-- Blog Card 1 -->
+                    <div class="blog-card">
+                        <div class="image">
+                            <img src="images/medium.jpeg" alt="Blog Post 1">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <a href="https://medium.com/@simi.saha.101101/navigating-the-networking-maze-building-meaningful-connections-ce98b332fb0d" target="_blank" style="text-decoration: none; color: inherit;">
+                                    Navigating the Networking Maze: Building Meaningful Connections
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <!-- Blog Card 2 -->
+                    <div class="blog-card">
+                        <div class="image">
+                            <img src="images/blog2.png" alt="Blog Post 2">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <a href="https://career.arizona.edu/blog/2024/04/15/getting-more-involved-as-a-student/" target="_blank" style="text-decoration: none; color: inherit;">
+                                    My Experience at Harvard WECode and HackPrinceton 2024
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <!-- Blog Card 3 -->
+                    <div class="blog-card">
+                        <div class="image">
+                            <img src="images/blog3.png" alt="Blog Post 3">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <a href="https://career.arizona.edu/blog/2024/09/30/how-to-find-research-opportunities/" target="_blank" style="text-decoration: none; color: inherit;">
+                                    How to Find Research Opportunities?
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <!-- Blog Card 4 -->
+                    <div class="blog-card">
+                        <div class="image">
+                            <img src="images/blog3.png" alt="Blog Post 4">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <a href="https://ur.arizona.edu/content/simi-saha" target="_blank" style="text-decoration: none; color: inherit;">
+                                    Undergraduate Research Ambassador-Simi Saha
+                                </a>
+                            </h4>
+                        </div>
+                    </div>
+
+                    
+
+
+                </div>
+            </section>
+        </div>
+
+        <!-- Copyright -->
+<div id="copyright">
+    <ul>
+        <li>&copy; SimiSaha</li>
+    </ul>
+</div>
+
+
+       
+            <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
