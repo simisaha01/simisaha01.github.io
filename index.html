@@ -33,7 +33,6 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
 					<div id="intro">
 						<h1>SIMI SAHA</h1>
 						<p>Fueled by curiosity and driven by code, I craft intelligent, fair solutions that bridge technology and ethics.</p>
@@ -42,7 +41,6 @@
 						</ul>
 					</div>
 
-				<!-- Header -->
 					<header id="header">
 						<a href="index.html" class="logo">Know More</a>
 					</header>
@@ -138,17 +136,16 @@
 
 				<script>
 					function sendMail() {
-						// Get form values
 						var name = document.getElementById("name").value;
 						var email = document.getElementById("email").value;
 						var message = document.getElementById("message").value;
 
-						// Create the mailto link
+						
 						var mailtoLink = "mailto:simisahajobs@gmail.com" +
 										"?subject=Contact Form Submission from " + encodeURIComponent(name) +
 										"&body=" + encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message);
 
-						// Open the user's email client
+
 						window.location.href = mailtoLink;
 					}
 				</script>
